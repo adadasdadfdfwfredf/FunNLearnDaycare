@@ -11,10 +11,7 @@ import ScrollToTop from './components/scrolltotop';
 import Pictures from './pages/Pictures';
 
 function DaycareWebsite() {
-  // Use the useNavigate hook to programmatically navigate
   const navigate = useNavigate();
-
-  // Use useEffect to navigate to /home when the website is first opened
   useEffect(() => {
     navigate('/home');
   }, []);
