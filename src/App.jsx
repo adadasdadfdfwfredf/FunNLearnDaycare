@@ -38,8 +38,10 @@ function DaycareWebsite() {
         </Routes>
       </main>
       <footer className="footer-section">
-        <p>&copy; 2023 ABC Daycare. All rights reserved.</p>
-      </footer>
+      <p>&copy; 2023 FunNLearn Daycare. All rights reserved.</p>
+      <p>Reproduction of any information from this website is strictly prohibited without prior permission.</p>
+    </footer>
+
       <ScrollToTop />
     </div>
   );

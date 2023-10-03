@@ -543,10 +543,10 @@ main {
 
 /* Updated .testimonial-section */
 .testimonial-section {
-  position: relative; /* Needed for absolute positioning of cards */
-  overflow: hidden; /* Hide overflow to prevent scrollbars */
-  padding-top: 120px; /* Adjust this value to match the height of your navbar */
-  padding-bottom: 60px; /* Ensure cards stay above the footer */
+  position: relative; 
+  overflow: hidden; 
+  padding-top: 120px; 
+  padding-bottom: 60px; 
 
   margin-top: -100px;
 
@@ -794,4 +794,8 @@ footer {
   padding: 20px;
   text-align: center;
   color: #fff;
+  font-size: 14px; /* Adjust the font size as needed */
 }
+
+
+

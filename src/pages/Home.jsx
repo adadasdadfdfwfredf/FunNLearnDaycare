@@ -48,7 +48,7 @@ export default function Home() {
             <p>Conveniently located near major highways and in close proximity to local companies.</p>
           </div>
           
-          <button>Contact Us</button>
+
         </section>
         <Orangebar/>
       </div>
