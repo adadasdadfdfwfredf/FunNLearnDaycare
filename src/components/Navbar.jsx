@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <nav>
       <ul>
@@ -16,10 +18,10 @@ export default function Navbar() {
 }
 
 function CustomLink({ to, children }) {
-  const path = window.location.pathname;
+  const location = useLocation();
 
   return (
-    <li className={path === to ? "active" : ""}>
+    <li className={location.pathname === to ? "active" : ""}>
       <Link to={to} className="hover-container">
         {children}
         <div className="mask"></div>

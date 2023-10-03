@@ -136,11 +136,19 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li.active a {
+  background-color: #5ba1ed; /* Background color for active link */
+  color: white;
+  border-radius: 5px;
+}
+
 nav ul li a:hover {
   background-color: #5ba1ed;
   color: white;
   border-radius: 5px;
 }
+
+
 /* Main Content */
 main {
   flex: 1;
