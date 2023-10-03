@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
 import Testimonials from './pages/Testimonials';
-import { Route, Routes, useNavigate } from 'react-router-dom'; // Import useNavigate
+import { Route, Routes, useNavigate } from 'react-router-dom'; 
 import logo from './images/logo.png';
 import ScrollToTop from './components/scrolltotop';
 import Pictures from './pages/Pictures';
@@ -18,7 +18,12 @@ function DaycareWebsite() {
 
   return (
     <div className="daycare-website">
-      <div className="top-bar"></div>
+      <div className="top-bar">
+        <p className="call-us-text">
+          <span className="text-content">Call Us Now For Inquiries</span>
+          <span className="phone-number">+1 (408) 262 1264</span>
+        </p>
+      </div>
       <img className="logo" src={logo} alt="Logo" />
       <header>
         <Navbar></Navbar>

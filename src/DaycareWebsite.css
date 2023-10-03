@@ -16,6 +16,64 @@ html, body, #root {
   z-index: 9999;
 }
 
+
+/* Add this CSS to your stylesheet */
+.call-us-text {
+  padding-top: -10px;
+  position: relative;
+  text-align: right; /* Align the text to the right */
+  padding-right: 50px;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.text-content {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.call-us-text:hover .text-content {
+  opacity: 0;
+  pointer-events: none; /* Disable pointer events to prevent interaction with hidden text */
+
+}
+
+.phone-number {
+  position: absolute;
+  top: 0;
+  right: 0; /* Align the phone number to the right */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding-right: 50px;
+}
+
+.call-us-text:hover .phone-number {
+  opacity: 1;
+}
+
+.text-content {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.call-us-text:hover .text-content {
+  opacity: 0;
+  pointer-events: none; /* Disable pointer events to prevent interaction with hidden text */
+}
+
+.phone-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.call-us-text:hover .phone-number {
+  opacity: 1;
+}
+
+
 /*Top white bar on the screen */
 .top-bar {
   position: fixed;
